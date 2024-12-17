@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeeksforGeeks Survey Form</title>
+</head>
+
+<body>
+    <h1>GeeksforGeeks Survey Form</h1>
+    <form id="form">
+        <div class="form-control">
+            <label for="name" id="label-name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required />
+        </div>
+        <div class="form-control">
+            <label for="email" id="label-email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required />
+        </div>
+        <div class="form-control">
+            <label for="age" id="label-age">Age</label>
+            <input type="number" id="age" name="age" placeholder="Enter your age" min="1" required />
+        </div>
+        <div class="form-control">
+            <label for="role" id="label-role">Which option best describes you?</label>
+            <select name="role" id="role" required>
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label>Would you recommend GeeksforGeeks to a friend?</label>
+            <label>
+                <input type="radio" name="recommend" value="yes" required /> Yes
+            </label>
+            <label>
+                <input type="radio" name="recommend" value="no" /> No
+            </label>
+        </div>
+        <div class="form-control">
+            <label>Which programming languages do you know? <small>(Check all that apply)</small></label>
+            <label for="inp-1">
+                <input type="checkbox" id="inp-1" name="language" value="C" /> C
+            </label>
+            <label for="inp-2">
+                <input type="checkbox" id="inp-2" name="language" value="C++" /> C++
+            </label>
+            <label for="inp-3">
+                <input type="checkbox" id="inp-3" name="language" value="C#" /> C#
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="comment">Any comments or suggestions</label>
+            <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+        </div>
+        <div class="form-control">
+            <button type="submit" id="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>

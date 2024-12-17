@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#p {
+    color: rgb(45, 255, 210);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+h1 {
+    /* text Sadow */
+    text-shadow: 4px 6px 4px orange,4px 4px 2px firebrick;
+    text-align: center;
+    color: aqua;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    font-family: Trebuchet, sans-serif;
+}
+h2:hover{
+    box-shadow: 5px 4px 3px black;
+}
+h2 {
+    text-align: center;
+    background-color: rgb(184, 241, 222);
+    border-style: double;
+    border-color: rgb(155, 38, 250);
+    border-width: 5px;
+    border-radius: 6px;
+    padding: 5px;
+    max-width: 250px;
+    margin: auto;
+}
+#lorem {
+    background-color: thistle;
+    border-style: dashed;
+    border-color: rgb(101, 98, 255);
+    border-width: 5px;
+    border-radius: 6px;
+    padding: 5px;
+}
+h3 {
+    text-align: center;
+    background-color: rgb(255, 215, 156);
+    max-width: 145px;
+    border-width: 5px;
+    border-radius: 6px;
+    padding: 5px;
+    margin: auto;
+}
+#color {
+    background-color: rgb(236, 236, 122);
+    border-width: 5px;
+    border-radius: 6px;
+    padding: 5px;
+    margin: auto;
+}
+ul {
+    color: yellow;
+}
+.red {
+    color: red;
+}
+.heada {
+    color: magenta;
+}
+.div1 {
+    color: rgb(255, 255, 255);
+}
+#span1 {
+    color: rgb(255, 255, 255);
+}
+#box1 {
+    margin-left: 0;
+    color: white;
+    border: 3px solid yellow;
+    width: 250px;
+    height: auto;
+    font-size: 20px;
+    background-color: rgb(109, 48, 109);
+}
+#box2 {
+    color: white;
+    border: 3px solid yellow;
+    width: 250px;
+    height: auto;
+    font-size: 20px;
+    background-color: rgb(65, 60, 70);
+}
+.center-container {
+    text-align: center;
+}
+.center-link {
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    color: red;
+}
+.center-link:hover {
+    color:green;
+}
+.center-link:active{
+    color: blue;
+}

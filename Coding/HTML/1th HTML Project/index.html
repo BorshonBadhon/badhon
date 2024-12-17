@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Winstar Restaurant</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to Winstar Restaurant</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Our Menu</a></li>
+        <li><a href="/hours.html">Store Hours</a></li>
+        <li><a href="/contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <figure>
+      <img src="img2.jpg" alt="all kinds of food" width="400">
+      <figcaption>Burger</figcaption>
+    </figure>
+  </header>
+  <hr>
+  <main>
+    <article id="about">
+      <h2>About Winstar Restaurant</h2>
+      <p>
+        <abbr title="Winstar Resturenr">LTS</abbr> Winstar Restaurant was founded in <time datetime="2012">2012</time>
+        in Florida.<br>
+        It has become a well-known dining destination for locals and tourists alike. <br>
+        The restaurant operates 24/7, ensuring meals are available anytime. <br>
+        Open seven days a week, Winstar prioritizes convenience for its customers. <br>
+        Its commitment to exceptional service is a cornerstone of its success. <br>
+        The restaurant offers a diverse menu catering to a variety of tastes. <br>
+        Breakfast options include everything from classic pancakes to hearty omelets. <br>
+        Lunch offerings feature fresh salads, sandwiches, and signature entrees. <br>
+        For dinner, Winstar serves gourmet dishes crafted by experienced chefs. <br>
+        Late-night diners appreciate the comforting snacks and quick bites available. <br>
+        The atmosphere is welcoming and designed for comfort.
+        Families enjoy dining together at Winstar, thanks to its kid-friendly menu. <br>
+        Vegetarian and vegan options are readily available on the menu. <br>
+        The restaurant’s ambiance is perfect for casual and formal occasions. <br>
+        Winstar offers free Wi-Fi for customers during their visit. <br>
+        The restaurant is a go-to spot for birthday celebrations. <br>
+        Many couples have enjoyed romantic dinners at Winstar. <br>
+        Customers often share positive reviews on social media. <br>
+        Winstar believes in creating memorable dining experiences. <br>
+        Its loyal customer base continues to grow year after year. <br>
+        The restaurant’s 24/7 operation ensures there’s no bad time to visit. <br>
+        Winstar Restaurant is proud to be a community staple in Florida. <br>
+      </p>
+      <h3>Specializing in Delicious Hot Dogs</h3>
+      <details>
+        <summary>About the Owner</summary>
+        <p>
+          Badhon, born in 1983, is the founder of Winstar Restaurant, established in 2012 in Florida, USA. With a degree
+          specializing in restaurant subjects, Badhon has combined his expertise and passion for food to create a 24/7
+          dining experience focused on high-quality hot dogs and exceptional customer service.
+        </p>
+      </details>
+    </article>
+    <hr>
+    <article id="menu">
+      <h2>Our Menu</h2>
+      <table border="1">
+        <caption>Our Tacos</caption>
+        <thead>
+          <tr>
+            <th scope="col">Tacos</th>
+            <th scope="col">Qty</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" rowspan="3">Crunchy</th>
+            <td>1</td>
+            <td>$1.50</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>$2.50</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>$3.25</td>
+          </tr>
+          <tr>
+            <th scope="row" rowspan="3">Soft</th>
+            <td>1</td>
+            <td>$2.00</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>$3.50</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>$4.50</td>
+          </tr>
+          <tr>
+            <td colspan="3">Chips & Salsa $2.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+    <head>
+      <body>
+        <h3>Input Form</h3>
+        <form action="/submit" method="post">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first_name" placeholder="Enter your first name" required><br><br>
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last_name" placeholder="Enter your last name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="Enter your age" min="1" max="100"><br><br>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            <label>Skills:</label><br>
+            <input type="checkbox" id="html" name="skills" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="checkbox" id="css" name="skills" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+            <label for="javascript">JavaScript</label><br><br>
+            <label for="feedback">Your Feedback:</label><br>
+            <textarea name="feedback" id="feedback" rows="4" cols="50" placeholder="Type your feedback here"></textarea><br>
+        </form>
+<p>Please select one option:</p>
+    <label>
+      <input type="radio" name="cuisine" value="italian" required>
+      Italian
+    </label>
+    <br>
+    <label>
+      <input type="radio" name="cuisine" value="mexican">
+      Mexican
+    </label>
+    <br>
+    <label>
+      <input type="radio" name="cuisine" value="indian">
+      Indian
+    </label>
+    <br>
+    <label>
+      <input type="radio" name="cuisine" value="japanese">
+      Japanese
+    </label>
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" Reset>
+      </form>
+    </body>
+    </head>
+    </head>
+</body>
