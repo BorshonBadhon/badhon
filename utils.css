@@ -1,0 +1,13 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 5px 10px;
+    background-color: rgb(233, 230, 230);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}

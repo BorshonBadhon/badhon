@@ -1,122 +1,85 @@
-body{
-    min-height: 600px;
-    display: flex;
-    border: 2px;
-    justify-content: center;
-    font-family: Arial, Helvetica;
-    background-color: rgb(30, 168, 248);
-    margin: 0;
+* {
     padding: 0;
-    align-items: center;
-}
-h1{
-    text-align: center;
-    color: rgb(173, 252, 173);
-}
-form{
-    background: rgb(141, 160, 72);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 50px 60px rgba(46, 48, 49, 0.9);
-    width: 100%;
-    max-width: 450px;
-}
-.from-control{
-    margin-bottom: 20px;
-}
-.from-control label{
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: rgb(28, 170, 252);
-}
-.from-control input,
-.from-control select,
-.from-control textarea {
-    width: 100%;
-    padding: 10px;
-    border: 2px solid rgb(204,204,204);
-    border-radius: 10px;
-    font-size: 14px;
-}
-.from-control textarea {
-    resize: none;
-    height: 80px;
-}
-.btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-button{
-    width: 150px;
-    height: 50px;
-    color: rgb(44, 49, 31);
-    border: none;
-    border-radius: 5px;
-    font-size: 17px;
-    font-weight: bold;
-    cursor:pointer;
-    transition: 1.0s;
-}
-button:hover {
-    background-color: rgb(99, 21, 21);
-}
-.form-control label input {
-    margin-right: 10px;
-}
-small {
-    font-size: 15px;
-    color: rgb(105, 248, 129);
+    margin: 0;
 }
 
-#name{
+header {
+    background-color: rgb(230, 230, 230);
+}
+
+nav {
     display: flex;
-    width: 50%;
-    padding: 9px;
-    border: 2px solid #ec8585;
-    border-radius: 5px;
-    font-size: 14px;
-    font-family: Arial;
 }
-#email{
+
+.logo {
     display: flex;
-    width: 50%;
-    padding: 9px;
-    border: 2px solid #ec8585;
-    border-radius: 5px;
-    font-size: 14px;
-    font-family: Arial;
+    align-items: center;
 }
-#age {
+
+.logo img {
+    width: 98px;
+    padding: 0 97px;
+}
+
+nav ul {
+    height: 58px;
     display: flex;
-    width: 50%;
-    padding: 9px;
-    border: 2px solid #ec8585;
-    border-radius: 5px;
-    font-size: 14px;
-    font-family: Arial;
+    justify-content: flex-start;
+    align-items: center;
 }
-#role{
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: gray;
+    font-style: bold;
+
+}
+
+.search {
     display: flex;
-    width: 225px;
-    padding: 9px;
-    border: 2px solid #ec8585;
+    align-items: center;
+
+}
+
+.search input {
+    width: 450px;
+    height: 36px;
+    background-size: 20px;
     border-radius: 5px;
-    font-size: 14px;
-    font-family: Arial;
+    border: 0;
+    margin: 0 10px 0 56px;
+    padding: 0 20px;
 }
-input[type="radio"] {
-    width: 15px;
-    height: 15px;
-    accent-color: #1570ad;
+.search button {
+    font-weight: 550px;
 }
-#comment{
-    width: 250px;
-    height: 50px;
-    background-color: #963232;
-    color:  #000000;
-    border-radius: 7px;
-    border: 2px solid transparent;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 566px;    
+}
+
+.slider {
+    width: 100%;
+    height: 5px;
+}
+
+img {
+    width: 100%;
+}
+footer {
+    height: 12vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
